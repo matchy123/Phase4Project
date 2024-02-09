@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-icon {
+  font-size: 24px;
+  color: white;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.wolves {
+  position: relative;
+}
+
+.wolves img {
+  width: 100%;
+  height: auto;
+  filter: blur(3px); /* Optional: Apply a blur effect to the background */
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 24px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
